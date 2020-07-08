@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Servicios from "./components/Servicios";
 import BarraNavegacion from "./components/BarraNavegacion";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <BarraNavegacion />
       <Header />
       <Servicios />
+      <Slider />
     </Fragment>
   );
 }

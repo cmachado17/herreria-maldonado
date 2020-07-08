@@ -63,3 +63,15 @@ header {
 .card-servicio {
   border: none !important;
 }
+
+/* Trabajos */
+
+.slider{
+  background-color: rgb(255, 72, 0);
+}
+
+@media(max-width: 768px){
+  .titulo-slider{
+    display: none !important;
+  }
+}
