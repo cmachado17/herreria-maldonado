@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <Row className="centrar-vertical">
-          <Col xs={6}>
-            <h2>Herreria</h2>
+        <Row>
+          <Col sm={12} md={6}>
+            <p>Herreria</p>
           </Col>
-          <Col xs={6}>
-            <h2>Herreria</h2>
+          <Col sm={12} md={6}>
+            <p>Herreria</p>
           </Col>
         </Row>
       </div>

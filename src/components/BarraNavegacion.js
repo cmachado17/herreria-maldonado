@@ -4,10 +4,10 @@ import Nav from "react-bootstrap/Nav";
 
 const BarraNavegacion = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" className="barra-navegacion sticky-top">
       <Navbar.Toggle aria-controls="barra-navegacion" />
       <Navbar.Collapse id="barra-navegacion">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link href="#">Inicio</Nav.Link>
           <Nav.Link href="#">Servicios</Nav.Link>
           <Nav.Link href="#">Trabajos</Nav.Link>
