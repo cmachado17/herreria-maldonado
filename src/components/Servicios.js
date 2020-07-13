@@ -27,6 +27,10 @@ const Servicios = () => {
 
     return (
         <section className="container my-5">
+               <div className="text-center mb-5">
+        <h2>Servicios</h2>
+        <div className="separador"></div>
+      </div>
 <Row>
 {servicios.map(servicio =>(
     <Servicio servicio={servicio} key={servicio.nombre}/>

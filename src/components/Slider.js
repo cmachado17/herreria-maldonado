@@ -69,8 +69,9 @@ const Slider = () => {
   ];
   return (
     <div className="slider p-5">
-      <div className="text-center mb-5 text-white">
+      <div className="text-center mb-5">
         <h2>Trabajos</h2>
+        <div className="separador"></div>
       </div>
       <div className="container">
         <Carousel>

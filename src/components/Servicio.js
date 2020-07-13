@@ -10,7 +10,7 @@ const Servicio = ({ servicio }) => {
         <Image src={servicio.icono} roundedCircle className="imagen-card" />
 
         <Card.Body className="text-center">
-          <Card.Title>{servicio.nombre}</Card.Title>
+          <Card.Title className="card-title">{servicio.nombre}</Card.Title>
      
         <Card.Text>{servicio.descripcion}</Card.Text>
         </Card.Body>

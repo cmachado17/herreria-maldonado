@@ -7,15 +7,14 @@ const Contacto = () => {
     <div className="contacto container my-5">
       <div className="text-center">
         <h2>Contacto</h2>
+        <div className="separador"></div>
       </div>
       <Row className="mt-5">
         <Col sm={12} md={6}>
           <ul>
-            <li>ASD</li>
-            <li>ASD</li>
-            <li>ASD</li>
-            <li>ASD</li>
-            <li>ASD</li>
+            <li><a href="#">Whatsapp</a> </li>
+            <li><a href="https://www.facebook.com/herreria.maldonado.509" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+         
           </ul>
         </Col>
         <Col sm={12} md={6}>
@@ -27,6 +26,7 @@ const Contacto = () => {
             allowfullscreen=""
             aria-hidden="false"
             tabindex="0"
+            className="mapa"
           ></iframe>
         </Col>
       </Row>

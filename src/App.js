@@ -5,6 +5,7 @@ import Servicios from "./components/Servicios";
 import BarraNavegacion from "./components/BarraNavegacion";
 import Slider from "./components/Slider";
 import Contacto from "./components/Contacto";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Servicios />
       <Slider />
       <Contacto />
+      <Footer />
     </Fragment>
   );
 }
