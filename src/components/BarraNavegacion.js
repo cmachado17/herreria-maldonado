@@ -1,10 +1,15 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Image from 'react-bootstrap/Image';
+import Logo from '../styles/img/logo.jpg';
 
 const BarraNavegacion = () => {
   return (
     <Navbar expand="lg" className="barra-navegacion sticky-top">
+      <Navbar.Brand href="#" className="contenedor-logo">
+        <Image roundedCircle src={Logo} className="logo"/>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="barra-navegacion" />
       <Navbar.Collapse id="barra-navegacion">
         <Nav className="ml-auto">

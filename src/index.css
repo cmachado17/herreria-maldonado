@@ -25,11 +25,19 @@ code {
 .barra-navegacion a{
   margin: 0 1.3rem;
 }
-.barra-navegacion a:hover {
+
+#barra-navegacion a:hover {
   background-color: rgb(255, 217, 0);
   color: black !important;
   border-radius: 20px;
 }
+
+.logo{
+  height: 70px;
+  width: 70px;
+}
+
+
 
 /* Header */
 

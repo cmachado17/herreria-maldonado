@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Servicios from "./components/Servicios";
 import BarraNavegacion from "./components/BarraNavegacion";
 import Slider from "./components/Slider";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Servicios />
       <Slider />
+      <Contacto />
     </Fragment>
   );
 }

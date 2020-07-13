@@ -8,10 +8,10 @@ const Header = () => {
       <div className="container">
         <Row>
           <Col sm={12} md={6}>
-            <p>Herreria</p>
+            
           </Col>
           <Col sm={12} md={6}>
-            <p>Herreria</p>
+        
           </Col>
         </Row>
       </div>

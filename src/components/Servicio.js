@@ -8,7 +8,7 @@ const Servicio = ({ servicio }) => {
     <Col xs={12} sm={12} md={4} className="my-3">
       <Card className="card-servicio">
         <Image src={servicio.icono} roundedCircle className="imagen-card" />
-        {/* <Card.Img variant="top" src={servicio.icono} /> */}
+
         <Card.Body className="text-center">
           <Card.Title>{servicio.nombre}</Card.Title>
      
